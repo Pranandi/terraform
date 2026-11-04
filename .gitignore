@@ -1,0 +1,13 @@
+# Local .terraform directories (contains heavy binaries)
+**/.terraform/*
+
+# .tfstate files (can contain secrets and grow large)
+*.tfstate
+*.tfstate.*
+
+# Crash logs and logs
+*.log
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
